@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  Zakes Pirates</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="loading">
+        <div class="loader"></div>
+        <h1 class="text-3xl text-white font-bold mt-8 mb-4">Zakes Pirates OS</h1>
+        <p class="text-gray-300">Loading your desktop environment...</p>
+    </div>
+
+    <!-- Desktop -->
+    <div id="desktop" class="w-full h-screen">
+        <!-- Desktop Icons -->
+        <div id="desktop-icons" class="desktop-icons"></div>
+        
+        <!-- Windows Container -->
+        <div id="windows-container" class="windows-container"></div>
+    </div>
+
+    <!-- Taskbar -->
+    <div id="taskbar" class="taskbar">
+        <button id="start-btn" class="start-btn">
+            <i class="fas fa-rocket"></i>
+            <span>Start</span>
+        </button>
+        
+        <div id="taskbar-apps" class="taskbar-apps"></div>
+        
+        <div class="flex items-center gap-4">
+            <button id="view-toggle" class="start-btn">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Mobile View</span>
+            </button>
+            <div id="clock" class="clock">
+                <span id="time">00:00</span>
+                <span id="ampm">AM</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Menu -->
+    <div id="start-menu">
+        <div class="start-menu-header">
+            <h2>Applications</h2>
+        </div>
+        <div id="start-menu-apps" class="start-menu-apps"></div>
+    </div>
+
+    <!-- Mobile View -->
+    <div id="mobile-view" class="mobile-view">
+        <div class="w-full p-6 flex justify-between items-center">
+            <h1 class="text-2xl text-white font-bold">
+                <i class="fas fa-mobile-alt mr-3"></i>
+                Mobile View
+            </h1>
+            <button id="exit-mobile" class="start-btn">
+                <i class="fas fa-times"></i>
+                <span>Exit</span>
+            </button>
+        </div>
+        <div id="mobile-icons" class="mobile-icons"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
