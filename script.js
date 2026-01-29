@@ -23,6 +23,46 @@ const apps = [
         color: "bg-gray-100",
         url: "https://en.wikipedia.org",
         description: "Free encyclopedia"
+    },
+    {
+        id: 4,
+        name: "Dictionary",
+        icon: '<img src="assets/images/d1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Dictionary/",
+        description: "English Dictionary"
+    },
+    {
+        id: 5,
+        name: "Museum",
+        icon: '<img src="assets/images/m1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Museum/",
+        description: "Museum"
+    },
+    {
+        id: 6,
+        name: "Zakes Jokes",
+        icon: '<img src="assets/images/j2.jpeg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Zakesjokes/",
+        description: "Dad Joke Generator"
+    },
+    {
+       id: 7,
+       name: "Zakes Library",
+       icon: '<img src="assets/images/lib1.jpeg" class="desktop-icon-img"></img>',
+       color: "bg-gray-100",
+       url: "https://the-architect-0.github.io/Library/",
+       description: "Read all the books your heart desires"
+    },
+    {
+        id: 8,
+        name: "Calculator",
+        icon: '<img src="assets/images/c1.jpeg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/scientific-calculator/",
+        description: "Calculator"
     }
     // Add more apps here following the same format:
     // {
