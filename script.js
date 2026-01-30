@@ -260,7 +260,7 @@ function setupEventListeners() {
     });
     
     // View toggle
-    viewToggle.addEventListener('click', toggleMobileView);
+  
     
     // Exit mobile view
     exitMobileBtn.addEventListener('click', switchToDesktopView);
