@@ -63,6 +63,54 @@ const apps = [
         color: "bg-gray-100",
         url: "https://the-architect-0.github.io/scientific-calculator/",
         description: "Calculator"
+    },
+    {
+        id: 9,
+        name: "Tetris",
+        icon: '<img src="assets/images/te1.jpeg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Tetris/",
+        description: "Tetris"
+    },
+    {
+        id: 10,
+        name: "Zakes Cosmetics",
+        icon: '<img src="assets/images/cos1.jpeg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Cosmeticsstore/",
+        description: "store"
+    },
+    {
+        id: 11,
+        name: "Weather",
+        icon: '<img src="assets/images/wea1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Weather/",
+        description: "Weather app"
+    },
+    {
+        id: 12,
+        name: "Music Studio",
+        icon: '<img src="assets/images/pi1.png" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Vms/",
+        description: "Virtual Music Studio"
+    },
+    {
+        id: 13,
+        name: "Notepad",
+        icon: '<img src="assets/images/no1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Notepad/",
+        description: "Notepad"
+    },
+    {
+        id: 14,
+        name: "To Do list",
+        icon: '<img src="assets/images/td1.jpeg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Todolist/",
+        description: "To Do List"
     }
     // Add more apps here following the same format:
     // {

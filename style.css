@@ -147,9 +147,9 @@
         
         /* Windows */
         .window {
-            position: absolute;
-            min-width: 600px;
-            min-height: 400px;
+            position: center;
+            min-width: 400px;
+            min-height: 600px;
             background: rgba(25, 25, 40, 0.95);
             backdrop-filter: blur(20px);
             border-radius: 15px;
@@ -416,6 +416,7 @@
                 min-height: 100% !important;
                 border-radius: 0;
                 resize: none;
+                
             }
             
             .mobile-icons {
