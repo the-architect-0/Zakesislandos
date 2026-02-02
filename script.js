@@ -111,6 +111,38 @@ const apps = [
         color: "bg-gray-100",
         url: "https://the-architect-0.github.io/Todolist/",
         description: "To Do List"
+    },
+    {
+        id: 15,
+        name: "Personal Journal",
+        icon: '<img src="assets/images/pj1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Personaljournal/",
+        description: "Personal Journal"
+    },
+    {
+        id: 16,
+        name: "Crypto Market",
+        icon: '<img src="assets/images/crypt1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Cryptoboard/",
+        description: "Crypto prices"
+    },
+    {
+        id: 17,
+        name: "Zakes Island Cocktails",
+        icon: '<img src="assets/images/coc1.jpg" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Cocktails/",
+        description: "Cocktail recipes"
+    },
+    {
+        id: 18,
+        name: "Unit Converter",
+        icon: '<img src="assets/images/uc1.png" class="desktop-icon-img"></img>',
+        color: "bg-gray-100",
+        url: "https://the-architect-0.github.io/Unitconverter-/",
+        description: "Unit Converter"
     }
     // Add more apps here following the same format:
     // {
