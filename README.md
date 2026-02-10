@@ -12,7 +12,6 @@ Zakes Pirates OS is a virtual desktop environment designed for enhanced user exp
 
 ## Available Applications
 - **Web Browser**: Access the internet with a built-in web browser.
-- **Game Launcher**: Easily access and manage your favorite games.
 - **File Manager**: Manage your files with a straightforward file management application.
 - **Text Editor**: Create and edit documents with a simple text editor.
 
