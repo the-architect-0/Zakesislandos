@@ -23,6 +23,7 @@ Zakes Pirates OS is a virtual desktop environment designed for enhanced user exp
 ## How to add web applications 
 - Navigate to script.js
 - Add your web application in the object named apps.
+- Do not commit to the main origin, create a different origin
 - Format for adding app:
 -   {
          id: add 1 from the previous app id,
