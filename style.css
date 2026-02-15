@@ -150,7 +150,7 @@
         .window {
             position: center;
             min-width: 400px;
-            min-height: 600px;
+            min-height: 1300px;
             background: rgba(25, 25, 40, 0.95);
             backdrop-filter: blur(20px);
             border-radius: 15px;
@@ -223,7 +223,7 @@
         
         .window-content {
             width: 100%;
-            height: calc(100% - 45px);
+            height: 1300px;
             overflow: hidden;
         }
         
