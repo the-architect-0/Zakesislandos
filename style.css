@@ -15,16 +15,17 @@
         
         /* Desktop Icons */
         .desktop-icons {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, 10px);
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
             gap: 25px;
-            padding: 30px;
+            padding: 40px;
             position: absolute;
             top: 0;
             left: 0;
             right: 0;
             bottom: 0;
-            
+            align-content: flex-start;
         }
         
         .desktop-icon {
@@ -401,7 +402,6 @@
         /* Responsive */
         @media (max-width: 768px) {
             .desktop-icons {
-                grid-template-columns: repeat(auto-fill, 80px);
                 gap: 20px;
                 padding: 20px;
             }
